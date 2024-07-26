@@ -1,3 +1,4 @@
+import 'package:first_project/first_project.dart';
 import 'package:first_project/login_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
+      home: FirstProject(),
     );
   }
 }

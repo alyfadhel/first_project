@@ -46,6 +46,13 @@ class FirstProject extends StatelessWidget {
                 Container(
                   width: 250.0,
                   height: 250.0,
+                  decoration: const BoxDecoration(
+                    borderRadius: BorderRadiusDirectional.only(
+                      topStart: Radius.circular(30.0,),
+                      topEnd: Radius.circular(30.0,),
+                    ),
+                  ),
+                  clipBehavior: Clip.antiAliasWithSaveLayer,
                   child:  const Image(
                     fit: BoxFit.cover,
                     image: NetworkImage(
@@ -55,7 +62,7 @@ class FirstProject extends StatelessWidget {
                 ),
                 Container(
                   width: 250,
-                  margin: EdgeInsets.symmetric(
+                  margin: const EdgeInsets.symmetric(
                       vertical: 20.0
                   ),
                   color: Colors.black45,
