@@ -85,5 +85,5 @@ class FirstProject extends StatelessWidget {
 }
 
 void onClicked() {
-  print('click');
+  debugPrint('click');
 }
